@@ -1,0 +1,75 @@
+<!--
+    Excalibur by Diogo Cordeiro
+    https://www.diogo.site/
+    Released for free under the Creative Commons Attribution 3.0 license
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Excalibur by Diogo Cordeiro</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header id="header">
+            <nav id="side-menu">
+                <label for="show-menu" id="menu-button">Menu</label>
+                <input id="show-menu" role="button" type="checkbox">
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="person.html">About</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="#" class="current">Gallery</a></li>
+                    <li><a href="generic.html">Generic</a></li>
+                    <li><a href="elements.html">Elements</a></li>
+                </ul>
+            </nav>
+            <h1>Hi, I'm Excalibur!</h1>
+            <p>A shaded light template full of life</p>
+            <p>I'm sure you will have a lot of fun with me.</p>
+        </header>
+        <!-- Content -->
+        <article id="my-photo-gallery">
+            <h1>Some awesome photos <br>2018</h1>
+            <div class="slideshow_content">
+              <img class="gallery_image" src="images/gallery/1.jpg">
+              <img class="gallery_image" src="images/gallery/2.jpg">
+              <img class="gallery_image" src="images/gallery/3.jpg">
+              <img class="gallery_image" src="images/gallery/4.jpg">
+              <img class="gallery_image" src="images/gallery/5.jpg">
+              <img class="gallery_image" src="images/gallery/6.jpg">
+              <img class="gallery_image" src="images/gallery/7.jpg">
+              <img class="gallery_image" src="images/gallery/8.jpg">
+              <img class="gallery_image" src="images/gallery/9.jpg">
+              <img class="gallery_image" src="images/gallery/10.jpg">
+            </div>
+
+            <div id="gallery-controller" class="slideshow-center">
+                <div class="slideshow-section">
+                    <button class="gallery-button slideshow-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+                    <button class="gallery-button slideshow-light-grey" onclick="plusDivs(1)">Next ❯</button>
+                </div>
+                <button id="click1" class="gallery-button gallery_numerical_button" onclick="currentDiv(1)">1</button>
+                <button id="click2" class="gallery-button gallery_numerical_button" onclick="currentDiv(2)">2</button>
+                <button id="click3" class="gallery-button gallery_numerical_button" onclick="currentDiv(3)">3</button>
+                <button id="click4" class="gallery-button gallery_numerical_button" onclick="currentDiv(4)">4</button>
+                <button id="click5" class="gallery-button gallery_numerical_button" onclick="currentDiv(5)">5</button>
+                <button id="click6" class="gallery-button gallery_numerical_button" onclick="currentDiv(6)">6</button>
+                <button id="click7" class="gallery-button gallery_numerical_button" onclick="currentDiv(7)">7</button>
+                <button id="click8" class="gallery-button gallery_numerical_button" onclick="currentDiv(8)">8</button>
+                <button id="click9" class="gallery-button gallery_numerical_button" onclick="currentDiv(9)">9</button>
+                <button id="click10" class="gallery-button gallery_numerical_button" onclick="currentDiv(10)">10</button>
+            </div>
+        </article>
+        <!-- Credits -->
+        <footer id="footer">
+            <p><a href="https://www.diogo.site/projects/excalibur_template">Excalibur</a> by <a href="https://www.diogo.site/">Diogo Cordeiro</a><br>
+            Released for free under the Creative Commons Attribution 3.0 license</p>
+        </footer>
+        <script src="assets/js/simple_gallery.js"></script>
+    </body>
+</html>
